@@ -8,7 +8,7 @@
 ***Clone repo***
 
 ```
-cd k8s_ubuntu
+cd vagrant-k8s-cluster
 ```
 
 #### Modify Vagrantfile according to your needs
