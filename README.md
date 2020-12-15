@@ -39,9 +39,15 @@ vagrant ssh kworker1
 vagrant ssh kworker2
 ```
 
+#### After you ssh into kmaster you can interact with your kubernetes cluster
+```
+kubectl get nodes
+kubectl get pods -A
+```
+
 The kmaster will have the docker registry running and all machines are configured to pull
 insecurely from there. 
-##### Registry address kmaster:5000
+##### Registry address is: kmaster:5000
 
 To add docker images to your local registry.
 
