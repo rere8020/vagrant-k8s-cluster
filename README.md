@@ -16,7 +16,7 @@ cd vagrant-k8s-cluster
 *Changing hostname will need to be changed other places for this to work, just leave it alone*
 
 ##### ALL VAGRANT COMMANDS NEED TO BE RUN FROM WHERE Vagrantfile 
-##### IS LOCATED IN THE k8s_ubuntu DIRECTORY!
+##### IS LOCATED IN THE vagrant-k8s-cluster DIRECTORY!
 
 ```
 vagrant up
